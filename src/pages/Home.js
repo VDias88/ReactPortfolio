@@ -1,16 +1,10 @@
-import '../App.css';
+import './App.css';
+import WellCome from './wellcome/WellCome';
 
 function Home() {
   return (
     <div className="App">
-      <div className='homeGreatings'>
-        <div className="primaryBackground">
-
-        </div>
-        <div className="secundaryBackground">
-            
-        </div>
-      </div>
+      <WellCome />
     </div>
   );
 }
